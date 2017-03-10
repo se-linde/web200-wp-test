@@ -1,0 +1,564 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Theme name: Dwayne Linde's Bones Test Two. 
+Author: Dwayne Linde
+Author URI: www.lindese.com/
+Description: Web 200 Final Project. 
+Version: 1.0
+*/
+
+
+
+<style>
+
+body {
+	font-family: 'Ariel', 'Helvetica', sans-serif;
+	font-size: 18px;
+	overflow: auto;
+	}
+	
+h1, h2, h3 {
+	text-align:left;
+	padding-left:5%;
+	color:#000;
+	font-family: 'Ariel', 'Helvetica',  sans-serif;
+	font-weight: 700;
+	letter-spacing:.05em;
+	}
+	
+p {
+	padding: 2%;
+	color:#000;
+	font-family: 'Ariel', 'Helvetica',  sans-serif;
+	}
+	
+img {
+	text-align:center;
+	max-width:100%;
+	height: auto;
+	width: auto;
+	}
+	
+small {
+	display: block;
+	clear: both;
+	}
+	
+#content {
+	margin: 0 auto;
+	max-width: 1020px;
+	width: 98%;
+	background: #fff;
+	border: 1px solid #220A37;
+	border-radius: 2px;
+	box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+	}
+	
+#login {
+	width: 100%;
+	height: 20%;
+	background:#FFF;
+	overflow: hidden;
+	}
+	
+#login p {
+	text-align:right;
+	font-size:13px;
+	padding: 0.1% 5% 0 0;
+	color: #000;
+	font-family: 'Ariel', 'Helvetica',  sans-serif;
+	}
+
+#login p a {
+	color: #CCCCCC;
+	text-decoration:none;
+	}
+
+header {
+	background: #FFF;
+	width: 76%;
+	min-height: 80px;
+	padding: 4%;
+	text-align: center;
+	}
+
+header img {
+    max-width: 35%;
+    height: auto;
+    float: left; 
+}
+
+/* nav bar */ 
+
+nav {
+	background: #252525;
+	}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	}
+	
+nav ul li {
+	float: left;
+	/*border: 0px 1px 0px 1px solid #fff;*/
+	width: 20%;
+	}
+nav ul li ul li {
+	float: left;
+	/*border: 0px 1px 0px 1px solid #fff;*/
+	width: 100%;
+	}
+nav ul li a {
+	background: #666666;
+	display:block;
+	padding: 5% 6%;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Ariel', 'Helvetica', sans-serif;
+	letter-spacing:.11;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	}
+	
+nav ul li a:hover, nav ul li.active a {
+	background-color: #220A37;
+	color: ;
+	}
+
+nav ul li ul li.hover {
+	display: block;
+	width: 100%;
+	}
+	
+/* drop down nav >>> needs help */
+	
+ul {list-style: none;padding: 0px;margin: 0px; width: 100%;}
+ul li {display: block;position: relative;float: left;}
+li ul {display: none;}
+
+/*ul li a:hover {background: #666666;}*/
+li:hover ul {display: block; position: absolute; width: 100% !important;}
+li:hover li {float: none;}
+/*li:hover a {background: #666666;}
+li:hover li a:hover {background: 666666;}*/
+#navigation li ul li {border-top: 0px;}
+
+
+
+	
+	
+.banner img {
+	width: 100%;
+	/*border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;*/
+	}
+
+.clearfix {
+	clear:both;
+	}
+
+.left-col {
+	background: #fff;
+	width: 96%;
+	float: left;
+	margin: 1% 1% 1% 1%;
+	padding: -4%;
+	}
+	
+.sidebar {
+	width: 20%;
+	float: left;
+	margin-left: .5%;
+	text-align: left;
+	}
+
+	
+.sidebar ul li a { /* sidebar nav */
+	display: block;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none; 
+	white-space: nowrap;
+	color: #666666;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Ariel', 'Helvetica', sans-serif;
+	letter-spacing:.11;
+	text-decoration: none;
+	text-align: left;
+	} 
+	
+#sidevar div.widget {
+	margin-bottom: 15px;
+	}
+		
+.background {
+	background-color: #fff;
+	/*opacity: .85;*/
+	color:fff;
+	/*opacity:.75;*/
+	}
+	
+.section {
+	width: 29%;
+	height:480px;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+	}
+	
+#content article.post-excerpt {
+	overflow: hidden;
+	margin-bottom: 10px;
+	
+	}	
+	
+	
+#content img {
+	
+}
+
+
+#content img.wp-post-image {
+	width:30%;
+	box-sizing: border-box;
+	border: 1px solid #CCC;
+	padding: 4px;
+	margin-left: 4%;
+	
+	
+	}
+
+#content input, #content select, #content textarea {
+	display: block;
+	margin-bottom: 10px;
+	}
+	
+#content img.featured {
+	margin-bottom: 30px;
+	
+}
+
+#content img.attachment-thumbnail {
+	float: left;
+	margin: 0 20px 0 0;
+	
+	}
+
+#content img.attachment-medium {
+	
+	}
+
+#content img.attachment-large {
+	width: 98%;
+	
+	}
+
+#content img.attachment-full {
+	
+	}	
+	
+.widget {
+	float: left;
+	
+	
+	}	
+
+.widget h2 {
+
+	}
+.widget widget_recent_entries {
+	text-decoration: none;
+	}
+	
+.journals {
+	/*border-bottom: 1px solid #CCCCCC;*/
+	
+	}	
+.journal-section {
+	width: 75%;
+	height:auto;
+	float: left;
+	text-align: left;
+	}	
+
+.journal-section p {
+	width: 85%;
+	height:auto;
+	padding-left: 5%;
+	text-align: left;
+	}	
+	
+.journal-section img {
+	width: 98%;
+	height:auto;
+	float: left;
+	margin: 2% 2%;
+	}	
+	
+.section p {
+	text-align: left;
+	padding: 5%;
+	font-family: 'Ariel', 'Helvetica', sans-serif;
+	}
+
+footer {
+	background-color: #666666;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	}	
+
+footer p, footer h3 {
+	color: #CCC;
+	font-family: 'Ariel', 'Helvetica', sans-serif;
+	}
+
+footer p a {
+	color: #CCC;
+	text-decoration: none;
+	}
+	
+.social-icons {
+	/*padding: 40px;*/
+	}
+	
+ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	}
+	
+li {
+	display: inline;
+	}
+	
+ul li img {
+	height: 40px;
+	padding-top: 8%;
+	}
+
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+#content article.post-excerpt {
+	overflow: hidden;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	}
+
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- MEDIA -------------------------*/
+
+@media screen and (max-width: 478px) {
+	body {
+		font-size: 13px;
+		}
+	}
+
+@media screen and (max-width:740px) {
+	nav ul {
+		width: 100%;
+		margin-bottom: 10px;
+		}
+	nav ul {
+		list-style: none;
+		margin: 0 auto;
+		padding-left: 0;
+		}
+	nav ul li {
+		text-align: center;
+		margin-left: 0 auto;
+		width: 100%;
+		/*border-top: 1px solid #CCCCCC;
+		border-right: 0px solid #CCCCCC;
+		border-left: 0px solid #CCCCCC;
+		border-bottom: 1px solid #CCCCCC;*/
+		}
+	nav ul li a {
+		padding: 8px 0px;
+		font-size: 16px;
+		}
+		
+	
+	.left-col {
+		visibility: hidden;
+		width: 100%;
+		}	
+	.sidebar   {
+		/*width: 100%;
+		height:auto;
+		padding-left: 5%;
+		text-align: left;*/
+		visibility:hidden;
+		padding-left: 0px;
+		margin: 0px;
+		
+		}	
+	.section {
+		float: left;
+		width: 95%;
+		margin: 0;
+		}	
+		
+		
+	.journal-section p {
+		float: right;
+		width: 95%;
+		margin: 0;
+		}	
+	
+	.journal-section h3 {
+		float: right;
+		width: 95%;
+		margin: 0;
+		}	
+	
+	.journal-section img {
+		width: 95%;
+		height:auto;
+		float: right;
+		padding-left: 4%;
+		}	
+			
+	img {
+		width: 100%
+		}
+		
+		
+	}
+
+
+
+
+
+
+</style>
