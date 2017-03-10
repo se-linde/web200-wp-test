@@ -48,10 +48,13 @@
     	<p>sign in</p>
     
     <header>
-    	<a href="http://lindese.com/web200/templates/wordpress/"><img src="<?php bloginfo('template_directory'); ?>
+    	<a href="http://www.lindese.com/web200/wp-test/wordpress/"><img src="<?php bloginfo('template_directory'); ?>
 /images/logo.jpg" alt="Seattle Trans Social logo" title="Seattle Trans Social logo"/></a>
+        
+        <h1><a href="http://www.lindese.com/web200/wp-test/wordpress/">Seattle Trans Social</a></h1>
+        
     </header>
-	</div>
+</div>
 	 <nav class="main-nav">
      <div id="navigation">
                 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'nav','container_id' => 'navigation', 'items_wrap' => '<ul id="navigation-items" class="%2$s">%3$s</ul>', ) ); ?>

@@ -10,21 +10,12 @@
     
     <div class="section">
         <ul id="social-icons">
-                    <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>
-/images/facebook-icon.png"></a></li>
-                    <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>
-/images/twitter-icon.png"></a></li>
+                    <li><a href="https://www.facebook.com/SeattleTransSocial16/"><img src="<?php bloginfo('template_directory'); ?>
+/images/facebook-72.png"></a></li>
+                    <li><a href="https://twitter.com/SeattleTSocial"><img src="<?php bloginfo('template_directory'); ?>
+/images/twitter-72.png"></a></li>
                 </ul>
         </div>
-    
-    
-    <div class="section">
-    <p><strong>Lorem ipsum</strong> dolscing elit. Pellentesque molestie aliquam accumsan. Nunc sagittis ipsum vel cursus fringilla. Donec efficitur imperdieporttitor malesuada. <a href="" target="_blank" class="link-1">READ MORE</a></p>
-    </div>
-    
-    <div class="section">
-        <p><strong>Lorem ipsum</strong> dolscing elit. Pellentesque molestie aliquam accumsan. Nunc sagittis ipsum vel cursus fringilla. Donec efficitur imperdieporttitor malesuada. <a href="" target="_blank" class="link-1">READ MORE</a></p>
-    </div>
     
     </footer>
     
