@@ -44,16 +44,22 @@
 
 <body <?php body_class(); ?>>
 <div id="content">
-	<div id="login">
-    	<p>sign in</p>
     
-    <header>
-    	<a href="http://www.lindese.com/web200/wp-test/wordpress/"><img src="<?php bloginfo('template_directory'); ?>
+	<div id="login">
+        
+        <p><a href="https://www.facebook.com/SeattleTransSocial16/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>
+/images/facebook-48.png" alt="Facebook"></a> 
+        <a href="https://twitter.com/SeattleTSocial" target="_blank"><img src="<?php bloginfo('template_directory'); ?>
+/images/twitter-48.png" alt="Twitter"></a>
+        
+    
+<header>
+    	<a href="http://www.lindese.com/web200/wp-test/wordpress/" ><img src="<?php bloginfo('template_directory'); ?>
 /images/logo.jpg" alt="Seattle Trans Social logo" title="Seattle Trans Social logo"/></a>
         
         <h1><a href="http://www.lindese.com/web200/wp-test/wordpress/">Seattle Trans Social</a></h1>
         
-    </header>
+</header>
 </div>
 	 <nav class="main-nav">
      <div id="navigation">

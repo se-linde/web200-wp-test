@@ -345,7 +345,14 @@ ul li img {
 	padding-top: 8%;
 	}
 
-
+#footer-social {
+	width: 100%;
+	height: 20%;
+	background:#666;
+	overflow: hidden;
+    margin-left: 290%;
+    margin-top: 10%; 
+	}
 
 /* =WordPress Core
 -------------------------------------------------------------- */

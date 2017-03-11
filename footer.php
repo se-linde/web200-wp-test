@@ -9,13 +9,18 @@
     </nav>
     
     <div class="section">
-        <ul id="social-icons">
-                    <li><a href="https://www.facebook.com/SeattleTransSocial16/"><img src="<?php bloginfo('template_directory'); ?>
-/images/facebook-72.png"></a></li>
-                    <li><a href="https://twitter.com/SeattleTSocial"><img src="<?php bloginfo('template_directory'); ?>
-/images/twitter-72.png"></a></li>
-                </ul>
-        </div>
+    
+    <div id="footer-social">
+        
+        <p><a href="https://www.facebook.com/SeattleTransSocial16/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>
+/images/facebook-48.png" alt="Facebook"></a> 
+        <a href="https://twitter.com/SeattleTSocial" target="_blank"><img src="<?php bloginfo('template_directory'); ?>
+/images/twitter-48.png" alt="Twitter"></a>
+    
+    </div>
+    
+    </div>    
+    
     
     </footer>
     
