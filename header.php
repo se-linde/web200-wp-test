@@ -15,20 +15,20 @@
 <meta name="keywords" content="Transgender" />
 <meta name="viewport" content="user-scalable=no, intial-scale=1.0, maxium-scale=1.0" />
     
+        
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
       
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>    
 <script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
+
 <script type="text/javascript">
-    $(window).load(function(){
-        $('.flexslider').flexslider({
-            animation: "fade",
-            slideshow: false,
-        });
-    })
+      $(window).load(function() { // enable function upon window load
+    $('.flexslider').flexslider(); // call flexslider function
+  });
 </script>
     
 <!--[if lt IE 9]>

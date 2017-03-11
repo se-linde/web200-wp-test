@@ -341,8 +341,9 @@ li {
 	}
 	
 ul li img {
-	height: 40px;
+	/* height: 40px; */ 
 	padding-top: 8%;
+    align-content: center; 
 	}
 
 #footer-social {
