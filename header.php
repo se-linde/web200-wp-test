@@ -60,10 +60,11 @@
         <h1><a href="http://www.lindese.com/web200/wp-test/wordpress/">Seattle Trans Social</a></h1>
         
 </header>
+        
 </div>
 	 <nav class="main-nav">
      <div id="navigation">
                 <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'nav','container_id' => 'navigation', 'items_wrap' => '<ul id="navigation-items" class="%2$s">%3$s</ul>', ) ); ?>
 			
-    </div>
+</div>
         

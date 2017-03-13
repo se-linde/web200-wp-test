@@ -93,6 +93,11 @@ header img {
     margin-top: -80px;
 }
 
+header h1 a {
+    text-decoration:none; 
+    color: black;
+}
+
 /* nav bar */ 
 
 nav {
@@ -138,7 +143,7 @@ nav ul li ul li.hover {
 	width: 100%;
 	}
 	
-/* drop down nav >>> needs help */
+/* drop down nav */
 	
 ul {list-style: none;padding: 0px;margin: 0px; width: 100%;}
 ul li {display: block;position: relative;float: left;}
@@ -150,6 +155,36 @@ li:hover li {float: none;}
 /*li:hover a {background: #666666;}
 li:hover li a:hover {background: 666666;}*/
 #navigation li ul li {border-top: 0px;}
+
+/* submenu positioning */ 
+
+
+
+/* arrow hover styling - this is new.  */ 
+
+nav > li > a:first-child:nth-last-child(2):before { 
+  border-top-color: #aaa; 
+}
+nav > li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+  /* border-bottom-color: orange; */ 
+  border-bottom-color: #ccb3ff;     
+  margin-top:-5px
+}
+nav li li > a:first-child:nth-last-child(2):before {  
+  border-left-color: #aaa; 
+  margin-top: -5px
+}
+nav li li:hover > a:first-child:nth-last-child(2):before {
+  border: 5px solid transparent; 
+  /* border-right-color: orange; */
+  border-right-color: #ccb3ff;
+  right: 10px; 
+}
+	
+
+
+/* end nav bar */ 
 
 
 
@@ -208,10 +243,11 @@ li:hover li a:hover {background: 666666;}*/
 	
 .section {
 	width: 29%;
-	height: 1000px;
+	height: 400px;
 	float: left;
-	margin: 2%, 2%;
+	/* margin: 2%, 2%; */ 
 	text-align: center;
+    /* margin: 2%; */ 
 	}
 	
 #content article.post-excerpt {
