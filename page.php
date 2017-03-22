@@ -12,15 +12,24 @@
 <div class="background">
 <!-- begin text --> 
 <div class="journal-section"> 
-<img src="<?php bloginfo('template_directory'); ?>/images/main1.png" alt="Main_image" title="Main Image"/>
+    
+<!-- <img src="< /* ?php bloginfo('template_directory'); ? */ >/images/main1.png" alt="Main_image" title="Main Image"/> --> 
+    
+<!-- < /* ?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ? /* > -->  
+<!-- <h2><a href="</* ?php the_permalink(); ? */ >">< /* ?php the_title(); ? */ ></a></h2> -->    
+
+<!-- new, post title without making it a hyperlink -->     
     
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
-<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>    
+
+<!-- <h2>< /* ?php the_title(); ? */ ></h2> -->   
+    
+    
     
 <?php the_content(''); ?> 
 <?php endwhile; endif; ?> 
     
-<small>page.php ~ bones 2 test</small>    
+ 
 
 <!-- end of content --> 
 <!-- footer start -->     

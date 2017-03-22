@@ -1,4 +1,4 @@
-@charset "UTF-8";
+ @charset "UTF-8";
 /* CSS Document */
 
 /*
@@ -10,15 +10,14 @@ Version: 1.0
 */
 
 
-
-<style>
-
 body {
 	font-family: 'Ariel', 'Helvetica', sans-serif;
 	font-size: 18px;
 	overflow: auto;
 	}
 	
+
+
 h1, h2, h3 {
 	text-align:left;
 	padding-left:5%;
@@ -51,7 +50,7 @@ small {
 	max-width: 1020px;
 	width: 98%;
 	background: #fff;
-	border: 1px solid #220A37;
+	/* border: 1px solid #220A37; */ 
 	border-radius: 2px;
 	box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
 	}
@@ -98,10 +97,31 @@ header h1 a {
     color: black;
 }
 
+/* toggle menu desktop code */ 
+
+
+#header a {
+    color: #000000; /* black */ 
+    text-decoration: none; 
+}
+
+#header a:hover {
+    color: #252525; 
+}
+
+
+#toggle {
+    display: none; 
+}
+
+/* end toggle */ 
+
+
 /* nav bar */ 
 
 nav {
 	background: #252525;
+    z-index: 1000;
 	}
 
 nav ul {
@@ -113,32 +133,64 @@ nav ul li {
 	float: left;
 	/*border: 0px 1px 0px 1px solid #fff;*/
 	width: 20%;
+    z-index: 1000;
 	}
-nav ul li ul li {
+ nav ul li ul li {
 	float: left;
-	/*border: 0px 1px 0px 1px solid #fff;*/
-	width: 100%;
-	}
-nav ul li a {
+	border-width: 0px 1px 0px 1px; 
+    border-style: solid; 
+    border-color: #fff;  
+    width: 100%; 
+    z-index: 1000;
+	} 
+
+ nav ul li a {
 	background: #666666;
 	display:block;
 	padding: 5% 6%;
 	font-weight: bold;
 	font-size: 18px;
 	font-family: 'Ariel', 'Helvetica', sans-serif;
-	letter-spacing:.11;
+	/* letter-spacing:.11 em; */
 	text-transform: uppercase;
 	color: #FFF;
 	text-decoration: none;
 	text-align: center;
-	}
+    z-index: 1000;
+	}  
+
+
+nav a {
+	background: #666666;
+	display:block;
+	padding: 5% 6%;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Ariel', 'Helvetica', sans-serif;
+	/* letter-spacing: .11 em; */ 
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+    z-index: 1000;
+	}  
 	
 nav ul li a:hover, nav ul li.active a {
 	background-color: #220A37;
-	color: ;
+
 	}
 
 nav ul li ul li.hover {
+	display: block;
+	width: 100%;
+	} 
+
+nav a:hover, li.active a {
+	background-color: #220A37;
+
+	}
+
+nav li.hover {
 	display: block;
 	width: 100%;
 	}
@@ -158,7 +210,38 @@ li:hover li a:hover {background: 666666;}*/
 
 /* submenu positioning */ 
 
+/* This is new */ 
 
+
+  nav > li:first-child  { border-radius: 4px 0 0 4px;} 
+  nav > li:first-child>a{border-radius: 4px 0 0 0;}
+  nav > li:last-child  { 
+  	border-radius: 0 0 4px 0; 
+  	margin-right: 0;
+  } 
+  nav > li:last-child >a{border-radius: 0 4px 0 0; }
+  nav li li a { margin-top:1px}
+  
+  
+  
+    nav li a:first-child:nth-last-child(2):before { 
+     content:""; 
+     position: absolute; 
+     height:0; 
+     width: 0; 
+     border: 5px solid transparent; 
+     top: 50% ;
+     right:5px;  
+   }
+
+
+
+/* submenu positioning */ 
+
+
+
+
+/* End of new */ 
 
 /* arrow hover styling - this is new.  */ 
 
@@ -205,14 +288,20 @@ nav li li:hover > a:first-child:nth-last-child(2):before {
 	width: 96%;
 	float: left;
 	margin: 1% 1% 1% 1%;
-	padding: -4%;
+	/* padding: -4%; */ 
 	}
 	
 .sidebar {
 	width: 20%;
 	float: left;
-	margin-left: .5%;
+	margin-left: .20%;
 	text-align: left;
+    
+    /* new */ 
+    
+    background-color: #220A37;
+    padding-top: 90px; 
+    
 	}
 
 	
@@ -221,11 +310,14 @@ nav li li:hover > a:first-child:nth-last-child(2):before {
 	padding: 5px 10px 5px 10px;
 	text-decoration: none; 
 	white-space: nowrap;
-	color: #666666;
-	font-weight: bold;
-	font-size: 18px;
-	font-family: 'Ariel', 'Helvetica', sans-serif;
-	letter-spacing:.11;
+	color: #C0C0C0;
+	/* font-weight: bold; */ 
+	/* font-size: 18px; */ 
+	
+    font-size: 0.8em; 
+    
+    font-family: 'Ariel', 'Helvetica', sans-serif;
+	/* letter-spacing: .11 em */ 
 	text-decoration: none;
 	text-align: left;
 	} 
@@ -236,14 +328,11 @@ nav li li:hover > a:first-child:nth-last-child(2):before {
 		
 .background {
 	background-color: #fff;
-	/*opacity: .85;*/
-	color:fff;
-	/*opacity:.75;*/
 	}
 	
 .section {
 	width: 29%;
-	height: 400px;
+	/* height: 400px; */ 
 	float: left;
 	/* margin: 2%, 2%; */ 
 	text-align: center;
@@ -303,13 +392,23 @@ nav li li:hover > a:first-child:nth-last-child(2):before {
 	
 .widget {
 	float: left;
-	
-	
-	}	
+    color: #FFF; 
+    
+	}
+
+
+.widget a {
+    text-decoration: none; 
+    color: #220A37; 
+}
+
 
 .widget h2 {
+    color: #FFF; 
 
 	}
+
+
 .widget widget_recent_entries {
 	text-decoration: none;
 	}
@@ -321,8 +420,9 @@ nav li li:hover > a:first-child:nth-last-child(2):before {
 .journal-section {
 	width: 75%;
 	height:auto;
-	float: left;
+	float: right;
 	text-align: left;
+    padding-right: 1%;
 	}	
 
 .journal-section p {
@@ -345,8 +445,42 @@ nav li li:hover > a:first-child:nth-last-child(2):before {
 	font-family: 'Ariel', 'Helvetica', sans-serif;
 	}
 
+
+/* breadcrumb */ 
+
+	#breadcrumbs {
+		font-family: 'Ariel', 'Helvetica',  sans-serif;
+		font-size: 1em;
+		color: #000;
+		margin-bottom: 10px;
+		}
+	
+	#breadcrumbs a {
+		color: #BBB;
+	}
+	
+	#breadcrumbs a:hover {
+		color: #DDD;
+	}
+
+/* end breadcrumb */ 
+
+
+
+/* iframe for Google calendar insert */ 
+
+iframe {
+    height: 700px;
+    background-color: #220A37;
+}
+
+/* end iframe */ 
+
+
+/* footer */ 
+
 footer {
-	background-color: #666666;
+	background-color: #666;
 	width: 100%;
 	height: 180px;
 	overflow: hidden;
@@ -508,30 +642,10 @@ a img.aligncenter {
 }
 
 
+/* -- MEDIA -- */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------------- MEDIA -------------------------*/
-
-@media screen and (max-width: 478px) {
-	body {
-		font-size: 13px;
-		}
-	}
-
-@media screen and (max-width:740px) {
+@media screen and (max-width:800px) {
 	nav ul {
 		width: 100%;
 		margin-bottom: 10px;
@@ -543,7 +657,7 @@ a img.aligncenter {
 		}
 	nav ul li {
 		text-align: center;
-		margin-left: 0 auto;
+		margin-left: auto;
 		width: 100%;
 		/*border-top: 1px solid #CCCCCC;
 		border-right: 0px solid #CCCCCC;
@@ -560,22 +674,47 @@ a img.aligncenter {
 		visibility: hidden;
 		width: 100%;
 		}	
+    
+    .section {
+        
+        text-align: center; 
+    }
+    
 	.sidebar   {
 		/*width: 100%;
 		height:auto;
 		padding-left: 5%;
 		text-align: left;*/
-		visibility:hidden;
-		padding-left: 0px;
+		/* visibility:hidden; */ 
+        background-color: #FFF; 
+		padding-left: 15%;
 		margin: 0px;
-		
-		}	
+        float: none; 
+    }
+    
+    .sidebar ul li a {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #000; 
+    }
+    
+    .widget h2 {
+    color: #000;
+    }
+    
+    
 	.section {
 		float: left;
 		width: 95%;
 		margin: 0;
 		}	
 		
+    .journal-section {
+        padding-right: 15%; 
+        padding-bottom: 2%; 
+    }
 		
 	.journal-section p {
 		float: right;
@@ -599,13 +738,93 @@ a img.aligncenter {
 	/* img {
 		width: 100%
 		} */ 
-		
-		
+
+    /* adding to prevent the img collapse */ 
+    
+        #header {
+        
+        padding-left: 10px; 
+        padding-right: 10px; 
+        overflow: hidden; /* to prevent the Great Collapse */ 
+    }
+    
+    #logo {
+        float: left; 
+    }
+    
+        #toggle {
+        display: block; 
+         float: right;
+        background-color: #666;
+    }
+    
+    
+    #toggle a {
+          color: #FFF; /* black */ 
+        text-decoration: none; 
+    }
+    
+    
+    #navigation {
+        display: none; 
+        padding-left: 10px; 
+        padding-right: 10px; 
+    }
+    
+  /* end for img collapse */ 
+    
+    }
+
+
+
+@media screen and (max-width: 799px) {
+    
+    #header {
+        
+        padding-left: 10px; 
+        padding-right: 10px; 
+        overflow: hidden; /* to prevent the Great Collapse */ 
+    }
+    
+    #logo {
+        float: left; 
+    }
+    
+    #toggle {
+        display: block; 
+         float: right;
+        background-color: #666;
+    }
+    
+    
+    #toggle a {
+          color: #FFF; /* black */ 
+        text-decoration: none; 
+    }
+    
+    #navigation {
+        display: none; 
+        padding-left: 10px; 
+        padding-right: 10px; 
+    }
+    
+    
+    
+    
+    
+}
+    
+    @media screen and (max-width: 478px) {
+	body {
+		font-size: 13px;
+		}
 	}
 
+		
 
 
 
 
 
-</style>
+
+

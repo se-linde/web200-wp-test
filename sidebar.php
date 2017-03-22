@@ -1,10 +1,15 @@
         	<div id="sidebar">
             
+         
             <!--- begin sub nav------->
             <div id="sub-navigation" class="widget">
-            <?php if (is_page()); ?>
-            <h2><?php echo get_the_title($post->post_parent); ?></h2>
-            <ul>
+                  
+             
+            <!--     
+                
+            </* ?php if (is_page()); ? */ >
+            <h2></* ?php echo get_the_title($post->post_parent); ? */></h2>
+            <ul> --> 
             
             
             <?php
@@ -20,12 +25,7 @@
 				}
 				
 				?>
-                <!--<li><a href="">HUNGER</a></li>
-                <li><a href="">EDUCATION</a></li>
-                <li><a href="">MEDICAL</a></li>
-                <li><a href="">DISASTER RELIEF</a></li>
-                <li><a href="">CLEAN WATER</a></li>
-                <li><a href="">INNOVATION</a> </li>--------------------->
+              
             </ul> 
            
             <?php if (!(is_page())) : ?>
@@ -52,9 +52,7 @@
             
             <!----begin sidebar widget ---->
             <?php dynamic_sidebar(); ?>
-            
-            
-            
+      
             <!----end sidebar widget ---->
              
              

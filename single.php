@@ -23,7 +23,7 @@
         
 <?php the_content(''); ?>
 <?php endwhile; endif; ?>
-<small>single.php ~ bones 2 test</small>
+
         
 <!----- end content  ----------------------->
         

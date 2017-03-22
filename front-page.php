@@ -20,12 +20,10 @@
         <dl>
    <dt>Definition list</dt>
    <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.</dd>
+aliqua.</dd>
    <dt>Lorem ipsum dolor sit amet</dt>
    <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.</dd>
+aliqua.</dd>
 </dl> 
     </div>
             
@@ -33,12 +31,10 @@ commodo consequat.</dd>
     <dl>
    <dt>Definition list</dt>
    <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.</dd>
+aliqua.</dd>
    <dt>Lorem ipsum dolor sit amet</dt>
    <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.</dd>
+aliqua.</dd>
 </dl>     
     </div>    
         
@@ -46,21 +42,17 @@ commodo consequat.</dd>
     <dl>
    <dt>Definition list</dt>
    <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.</dd>
+aliqua.</dd>
    <dt>Lorem ipsum dolor sit amet</dt>
    <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.</dd>
+aliqua.</dd>
 </dl> 	      
      </div>
             
-            
-        <small>front-page.php ~ bones test 2</small>
         
-        <!----- end content  ----------------------->
+        <!-- end content  -->
         
-        <!----footer start ------>
+        <!-- footer start -->
         
         <!-- end text -->
 <?php get_footer(); ?>

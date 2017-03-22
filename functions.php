@@ -62,6 +62,19 @@ function get_my_title_tag() {
 	}
 //
 
+// breadcrumbs 
+
+function bcn_display($return = false, $linked = true, $reverse = false) 
+{ 
+    global $breadcrumb_navxt; 
+    if($breadcrumb_navxt !== null) 
+    { 
+        return $breadcrumb_navxt->display($return, $linked, $reverse); 
+    } 
+} 
+
+
+
 function add_flexslider() { // display images as a flexslider 
      
     global $post;

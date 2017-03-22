@@ -24,7 +24,8 @@
     
         </article>
         <?php endwhile; endif; ?>
-        <small>index.php</small>
+            
+ 
         
         <!----- end content  ----------------------->
         
