@@ -463,7 +463,7 @@ nav li li:hover > a:first-child:nth-last-child(2):before {
 		color: #DDD;
 	}
 
-/* end breadcrumb */ 
+/* end breadcrumb - which didn't work. */ 
 
 
 
@@ -659,10 +659,7 @@ a img.aligncenter {
 		text-align: center;
 		margin-left: auto;
 		width: 100%;
-		/*border-top: 1px solid #CCCCCC;
-		border-right: 0px solid #CCCCCC;
-		border-left: 0px solid #CCCCCC;
-		border-bottom: 1px solid #CCCCCC;*/
+	
 		}
 	nav ul li a {
 		padding: 8px 0px;

@@ -1,10 +1,6 @@
 
 <!DOCTYPE HTML>
-<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
-<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<!--<![endif]-->
+
 <html>
 <head>
 <meta charset="UTF-8">
@@ -118,17 +114,6 @@
         <h1><a href="http://www.lindese.com/web200/wp-test/wordpress/">Seattle Trans Social</a></h1>
     
 
-
-<!-- start the toggle menu - pic --> 
-    
-    
-    
-<!-- <div id="header">
-<h1 id="logo"><a href="index.php">Community</a></h1>    
-<img id="toggle" src="images/img-toggle-black.png" width="25" height="25" alt="Toggle Menu">
-</div>  -->   
-    
-<!-- end toggle menu -->       
     
   
         
